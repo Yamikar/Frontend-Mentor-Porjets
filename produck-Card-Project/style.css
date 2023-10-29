@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: pink;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    justify-content: center;
+    align-items: center;
+        background-color: red;
+        display: flex;
+        width: 200px;
+        height: 200px;
+        
+}
