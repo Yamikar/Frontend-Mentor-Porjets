@@ -27,8 +27,8 @@ body{
 .box1{
     justify-content: center;
     align-items: center;
-       background-color: blue;
         display: grid;
+        margin-left: 100;
         width:450px;
         height: 400px;
         border-radius: 5px;
@@ -39,21 +39,21 @@ body{
     align-items: center;
         background-color: hsl(0, 0%, 100%);
         display: grid;
-        width: 400px;
+        width: 300px;
         height: 400px;
-        border-radius: 4px 4px ;
+        border-radius: 0px 4px 4px 0px;
 }
 .btn{
-    width: 200;
+    width: 220;
     height: 40;
-    border-radius: 4px;
+    border-radius: 10px;
     border: none;
     color: white;
     font-size: 14;
     background-color: hsl(158, 36%, 37%);
 }
 img{
-    width: 400;
+    width: 300;
     height: 400px;
     border-radius: 4px 0px 0px 4px;
 
@@ -64,8 +64,7 @@ img{
     align-items: center;
     display: flex;
     position: relative;
-    top: 20;
-   
+    top: -35;
     height: 100px;
     width: 400px;
 }
@@ -73,15 +72,29 @@ img{
    background-color: hsl(158, 36%, 30%);
 }
 .str{
+    font-family: 'Fraunces', serif;
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
+    left: 70px;
+    top: 40;
     position: relative;
+    
 }
-.one-text{
-    color: gray;
-   margin-right: 230px;
-   margin-top: -210;
+.top1{
+    width: 300px;
+    height:400px;
+}
+.cost{
+    color:hsl(158, 36%, 37%)
+}
+.yzk{
+    color: grey;
+}
+.old-cost{
+   color: grey;
+    margin-top: -50px;
+    margin-left: 130px;
 }
