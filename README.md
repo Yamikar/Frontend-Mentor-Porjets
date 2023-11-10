@@ -1,4 +1,4 @@
-# PRODUCK-PREV-EW-CARD
+# Frontend Mentor
 Entry-level Frontend Mentor Projects
 this project was made with the support of Frontend mentor 
 About this Project
