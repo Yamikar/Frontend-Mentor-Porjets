@@ -67,3 +67,32 @@ span{
     margin-right: 30px; /* Başlıklar arasındaki aralığı ayarlayabilirsiniz */
 
 }
+
+/* media code is here*/
+@media only screen and (max-width:767px) {
+    
+
+    .box-model{
+        height:800px;
+        width: 350px;
+
+    }
+    img{
+        position: relative;
+        right:430px;
+        width: 350px;
+        height: 300px;
+        border-radius: 7px 7px 0px 0px;
+    }
+    
+    .score , h2{
+        display: grid;
+        margin-top: 80;
+        margin-left: 100px;
+    }
+
+}
+
+
+
+
