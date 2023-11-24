@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Libre+Franklin:wght@600;700&display=swap');
+
+
+
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+  font-size: 40px;
+    justify-content: center;
+    display: flex;
+    color : hsl(0, 0%, 59%)
+}
+p{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+.txt{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 360px;
+    width: 360px;
+    height: 50px;
+    border-radius: 20px;
+  border: 1px  solid hsl(0, 0%, 59%);
+}
+span{
+   
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+
+    color: black;
+}
+button{
+    width: 150;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background: hsl(223, 87%, 63%);
+    position: relative;
+    left: 750px;
+    top: -50px;
+}
