@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500;700;800&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Libre+Franklin:wght@300&family=Outfit&family=Roboto:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500;700;800&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Lexend+Deca&family=Libre+Franklin:wght@300&family=Outfit&family=Roboto:wght@400;700&display=swap');
+
+
+
+
+
+.main-box{
+    position: relative;
+    width: 1199px;
+    height: 644px;
+}
+.box-1{
+    position: relative;
+    background: hsl(31, 77%, 52%);
+    width: 398px;
+    height: 644px;
+}
+.box-2{
+    top: -644px;
+    left: 398px;
+    position: relative;
+    background: hsl(184, 100%, 22%);
+    width: 398px;
+    height: 644px;
+}
+.box-3{
+    top: -1288px;
+    left:796px;
+    position: relative;
+    background: hsl(179, 100%, 13%);
+    width: 398px;
+    height: 644px;
+}
+
+h1{
+    left: 30;
+    position: relative;
+     font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    font-size: 50px
+}
+
+
+p{
+    left: 30;
+position: relative;
+font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Epilogue', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    font-size: 30px;
+}
+
+button{
+    left: 30;
+    top: 90;
+    position: relative;
+    background: white;
+    border: none;
+    border-radius:10px ;
+    height: 40px;
+    width: 200px;
+}
+
+img{
+    left: 30;
+    position: relative;
+    width: 140px;
+}
