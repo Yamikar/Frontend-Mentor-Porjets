@@ -1,104 +1,85 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Libre+Franklin:wght@600;700&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Libre+Franklin:wght@300&display=swap');
-
-
-
-
-h1{
-  font-size: 40px;
+.container{
+    display: flex;
     justify-content: center;
-    display: flex;
-    color : hsl(0, 0%, 59%)
-}
-p{
-    font-family: 'Fraunces', serif;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Karla', sans-serif;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 20px;
-    justify-content: center;
-    display: flex;
-}
-.txt{
-    justify-content: center;
-    display: flex;
-    position: relative;
-    left: 450px;
-    width: 360px;
-    height: 45px;
-    border-radius: 20px;
-  border: 1px  solid  hsl(223, 100%, 88%);
-}
-span{
-    font-family: 'Fraunces', serif;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Karla', sans-serif;
-    font-family: 'Libre Franklin', sans-serif;
-
-    color: black;
-}
-button{
-    width: 150;
-    height: 45px;
-    border-radius: 20px;
-    border: none;
-    color: white;
-    background: hsl(223, 87%, 63%);
-    position: relative;
-    left: 820px;
-    top: -45px;
-}
-
-.ads{
-    margin-top: 40px;
-    display: flex;
-    width: 600px;
-    height: 300px;
-    margin-left:400px;
-   }
+    }
 
 
-   .logo{
-    position: relative;
-    left: 700px;
-   }
-
-   /* media code is here now media code add if disgen  flowwing */
-
-   @media (max-width:375px){
-    
     h1{
-    font-size: 30px;
-   
-    }
-    .txt{
-    left: 20px;
-    width: 300px;
-    height: 40;
-    } 
-       
-    button{
-    width: 300px;
-    top: 12;
-    left: 20px;
-    }
-    .logo{
-        left: 140;
-    }
+    font-weight: 300;
+    color:hsl(0, 0%, 59%);
+   text-align: center;
 
-    .ads{
-        height: 200;
-        width: 300;
-        margin-left: 20px;
     }
 
     p{
-        font-size: 15;
+    text-align: center;
+    font-size: 20px;
+ }
+
+
+    button{
+        margin-left: 20px;
+        font-weight:300;
+        border: none;
+        background:hsl(223, 87%, 63%);
+        color: white;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
     }
 
-   }
-/*media code is complated */
+    .fxt{
+        font-weight: 300;
+        font-size: 20px;
+        color:hsl(0, 0%, 59%);
+    }
+
+    input{
+        border: 1px solid  hsl(223, 87%, 63%);
+        border-radius: 20px;
+        height: 50px;
+        width: 500px;
+    }
+
+    span{
+        color: black;
+        font-weight: 700;
+    }
+
+    ol , li {
+        margin-left: 20px;
+        display: flex;
+    }
+
+
+    /* resporsive code is here */
+
+
+    @media screen and (max-width:375px) {
+
+
+        button{
+            right: 10px;
+            width: 350px;
+            top: 210px;
+            position: absolute;
+        }
+
+        .model{
+            top: 150px;
+            position: relative;
+            height: 300px;
+            width: 340px;
+
+        }
+
+        input{
+            right: 10px;
+            position: absolute;
+            width: 350;
+        }
+
+
+    }
