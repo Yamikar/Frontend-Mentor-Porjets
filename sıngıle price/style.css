@@ -1,77 +1,95 @@
-.header{
+
+    
+    body{
+        background:#F0F0F0;
+    }
+
+
+    .container{
+    display: flex;
     justify-content: center;
-    align-items: center;
+    }
+
+    .container-2{
     display: flex;
-}
-.container{
-    background-color: orange;
-    width: 600px;
-    height: 500;
-}
-.box1{
-display: flex;
-width: 600px;
-height: 200px;
-background: white;
-}
+    justify-content: center;
+    }
 
-.box2{
-display: flex;
-width: 300px;
-height: 300px;
+    .messege{
+        border-radius: 5px 5px 0px 0px;
+        background: white;
+        height: 200px;
+        width: 800px;
+    }
+    .const{
+        border-radius: 0px 0px 0px 5px;
+        height: 250px;
+        width: 400px;
+        background: hsl(179, 62%, 43%);
+      
+    }
 
-background: hsl(179, 62%, 43%);
-}
-.box3{
-    margin-top: -300px;
-    margin-left: 400px;
-    height: 300px;
-    margin-left: 300px;
-    width: 300px;
-    background: cyan;
-display: flex;
-}
-
-
-
-
-body{
-    box-sizing: border-box;
-    font-family:sans-serif;
-    background-color: hsl(204, 43%, 93%) ;
-}
-.model-1{
+    .about{
+        border-radius: 0px 0px 5px 0px;
+        height: 250px;
+        width: 400px;
+        background:#4ABEBD;
+    }
    
-    height: 200px;
-    width: 400px;
-    display: flex;
-   margin-top: 20px;
-   margin-left: 30;
-}
-.text{
-    position: relative;
-    color:hsl(71, 73%, 54%) ;
-    top: 50;
-    font-size: 18px;
-}
-.text2{
-    font-family:'karla';
-    color:hsl(179, 62%, 43%) ;
-    position: absolute;
-}
-.long{
-    font-family: 'Fraunces', serif;
-    font-family: 'Karla', sans-serif;
-    color: grey;
-    top: 110;
-    position: absolute;
-}
 
-.ymz{
-    top: 60;
-    position: relative;
-    color: white;
-}
-.nones{
-    color:black;
-}
+    .als{
+        margin-left: 40px;
+        text-align: justify;
+    }
+
+    .btn{
+        font-weight: 700;
+        font-family: 'Karla', sans-serif;
+        border-radius: 5px;
+        border: none;
+        height: 50px;
+        width: 250px;
+        background: hsl(71, 73%, 54%);
+        color:white;
+    }
+
+
+    h2{
+
+        margin-left: 40px;
+        font-family: 'Karla', sans-serif;
+        font-weight: 700;
+        color:hsl(179, 62%, 43%); ;
+    }
+
+    .light{
+        font-size: 16px;
+        margin-left: 40px;
+        font-weight: 400;
+        font-family: 'Karla', sans-serif;
+        color: hsl(204, 43%, 93%);
+    }
+
+
+    .other{
+        color: white;
+        font-family: 'Karla', sans-serif;
+        margin-left: 40px;
+    }
+
+    .text-1{
+        font-weight: 400;
+        color:hsl(71, 73%, 54%);
+    }
+
+    .text-2{
+        color: gainsboro;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    /*media code is here */
+
+    
