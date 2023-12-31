@@ -1,98 +1,120 @@
+
+
+
+
+
+
 body{
-    background-color: hsl(233, 47%, 7%);
+    background: hsl(233, 47%, 7%);
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter&family=Karla:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter&family=Karla:wght@400;700&display=swap');
 
-
-
-.container{
+    .container{
+    display: flex;
     justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.box-model{
-    border-radius: 7px;
-    width:800px ;
-    height: 350px;
-    background-color:hsl(244, 38%, 16%);
-}
+    }
 
-img{
-    filter:hue-rotate(270deg) ,   ; 
-    margin-left:430px;
-    height: 350px;
-    border-radius: 0px 7px 7px 0px;
-}
-.text-box{
-
-    display: flex;
-    margin-left: 80px;
-    margin-top:-330;
-}
-p{
-   
-    position: relative;
-    top: 100;
-    right: 330px;
-    color: white;
-}
-h1{
-    right:20px;
-    position: relative;
-    font-family: 'Fraunces', serif;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Karla', sans-serif;
-    color: white;
-}
-span{
-    color:hsl(277, 64%, 61%) ;
-}
-.score{
-    display: flex;
-}
-.score , h2{
-
-    right:20px;
-    position: relative;
-    font-family: 'Fraunces', serif;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Karla', sans-serif;
-    color: white;
-
-    margin-left: 50px;
-    margin-top: 70px;
-    margin-right: 30px; /* Başlıklar arasındaki aralığı ayarlayabilirsiniz */
-
-}
-
-/* media code is here*/
-@media only screen and (max-width:767px) {
-    
 
     .box-model{
-        height:800px;
-        width: 350px;
-
+    height: 300px;
+    width:800px;
+    background: hsl(244, 38%, 16%);
     }
+
+
+    h1{
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+        padding-left: 20px;
+        color:hsl(0, 0%, 100%);
+        text-align: start;
+    }
+
+
+    .img-box{
+        justify-content:end;
+        display: flex;
+        width: 400px;
+        height: 400;
+    }
+
+    P{
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        padding-left:20px;
+        color:hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+    }
+   
     img{
-        position: relative;
-        right:430px;
-        width: 350px;
+        width: 400px;
         height: 300px;
-        border-radius: 7px 7px 0px 0px;
+        top:6px;
+        height: 300px;
+        left: 50%;
+        position: absolute;
     }
+
+    h4{
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+        margin-left: 40px;
+        display: inline-block;
+        margin: 15px;
+        color:hsl(0, 0%, 100%); 
+         }
+
+         h5{
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 400;
+            margin-left: 20px;
+            display: inline-block;
+            margin: 15px;
+            color:hsla(0, 0%, 100%, 0.75);
+             }
+
+        .score{
+            display: flex;
+            margin-top: 5px;
+            margin-left: 40px;
+             }
+
+
+
+    /*mobile digsean is here code used 375px */
+
+             /*
+    @media (max-width:375px) {
+        
+        .container{
+            justify-content: center;
+            display: flex;
+        }
+
+        .box-model{
+            border-radius: 10px;
+            height: 800px;
+            width: 350px;
+            background: hsl(244, 38%, 16%);
+        }
+
+         p{
+            margin-top: 90%;
+            text-align: center;
+            color: white;
+            justify-content: center;
+        }
+        
+        img{
+            left:4px;
+            position: absolute;
+            width: 350px;
+            height: 250px;
+            border-radius: 10px;
+        }
+        
+    }
+
+    */
     
-    .score , h2{
-        display: grid;
-        margin-top: 80;
-        margin-left: 100px;
-    }
-
-}
-
-
-
-
